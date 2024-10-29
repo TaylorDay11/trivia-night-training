@@ -1,3 +1,5 @@
+import brain from "../img/brain.png"
+
 export default function Intro(prop) {
 
     function startGame() {
@@ -30,7 +32,7 @@ export default function Intro(prop) {
 
   return (
     <div className="intro-container">
-        <img src="/src/img/brain.png" alt="brain" className="brain-img"/>
+        <img src={brain} alt="brain" className="brain-img"/>
         <h1>Trivia Night Training</h1>
         <p>Ready to become the ultimate trivia master?<br />
         Sharpen your skills with this quiz so that you 
