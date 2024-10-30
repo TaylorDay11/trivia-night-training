@@ -52,12 +52,17 @@ export default function App() {
         setLoading(false)
       }
     }
+    
+    if(intro === false){
       fetchData(url)
+    }
 
   }, [intro])
 
-  if (loading) return <p className="apiStatus">Loading...</p>
-  if (error) return <p className="apiStatus">Error: {error}. Please try refreshing the page.</p>
+  if(intro === false){
+    if (loading) return <p className="apiStatus">Loading...</p>
+    if (error) return <p className="apiStatus">Error: {error}. Please try refreshing the page.</p>
+  }
 
   return (
     <main>
