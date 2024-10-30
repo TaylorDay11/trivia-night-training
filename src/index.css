@@ -86,7 +86,7 @@ button:hover{
 .quiz-container{
   border-radius: 30px;
   padding: 30px 81px; 
-  background-image: url("src/img/circles-1.png"), url("src/img/circles-2.png"), url("src/img/circles-3.png");
+  background-image: url("/circles-1.png"), url("/circles-2.png"), url("/circles-3.png");
   background-repeat: no-repeat;
   background-position: 145% 20%, 110% 115%, -15% -15%;
   max-width: 500px;
