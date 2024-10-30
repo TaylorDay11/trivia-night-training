@@ -77,15 +77,11 @@ export default function Quiz(prop) {
     const [correct, setCorrect] = useState(0)
     function checkAnswers() {
         let count = 0
-        let check = 0
-        prop.data.results.forEach(item => {
-            if (selectedButton[check]){
-                if (item.correct_answer === selectedButton[check]) {
-                    count++
-                }
+        for (let i = 0; i < 5; i++) {
+            if(selectedButton[i]) {
+                correctAnswers[i] === selectedButton[i] && count++
             }
-            check++
-        })
+        }
         setCorrect(count)
         setEndQuiz(true)
         if (count === 5) {
