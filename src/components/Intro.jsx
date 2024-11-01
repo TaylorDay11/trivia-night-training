@@ -16,17 +16,17 @@ export default function Intro(prop) {
 
     function difficultyStyles(difficulty){
         if(difficulty === prop.selectedDifficulty) {
-            return {backgroundColor: "#6D67FF", color: "#F5F7FB"} 
+            return {backgroundColor: "#6D67FF", color: "#FFF"} 
         } else {
-            return {backgroundColor: "#F5F7FB", color: "#6D67FF"} 
+            return {backgroundColor: "#F5F7FB", color: "#544fd4"} 
         }
     }
 
     function categoryStyles(category){
         if(category === prop.selectedCategory) {
-            return {backgroundColor: "#6D67FF", color: "#F5F7FB"} 
+            return {backgroundColor: "#6D67FF", color: "#FFF"} 
         } else {
-            return {backgroundColor: "#F5F7FB", color: "#6D67FF"} 
+            return {backgroundColor: "#F5F7FB", color: "#544fd4"} 
         }
     }
 

@@ -20,7 +20,7 @@ export default function Answers(prop) {
             }
         } else {
             return {backgroundColor: prop.selectedButton[prop.questionId] === prop.answer ? "#6D67FF" : "#F5F7FB",
-            color: prop.selectedButton[prop.questionId] === prop.answer ? "#F5F7FB" : "#6D67FF"}
+            color: prop.selectedButton[prop.questionId] === prop.answer ? "#F5F7FB" : "#544fd4"}
         }
     }
 
