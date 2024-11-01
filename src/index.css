@@ -60,6 +60,7 @@ button:hover{
 
 .brain-img{
   width: 280px;
+  height: 216px;
 }
 
 .difficulty-btns{
@@ -86,7 +87,7 @@ button:hover{
 .quiz-container{
   border-radius: 30px;
   padding: 30px 81px; 
-  background-image: url("/circles-1.png"), url("/circles-2.png"), url("/circles-3.png");
+  background-image: url("/circles-1.webp"), url("/circles-2.webp"), url("/circles-3.webp");
   background-repeat: no-repeat;
   background-position: 145% 20%, 110% 115%, -15% -15%;
   max-width: 500px;
@@ -153,6 +154,7 @@ hr{
 
   .brain-img{
     width: 200px;
+    height: 156px;
   }
 
   .quiz-container{

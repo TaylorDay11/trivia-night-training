@@ -1,4 +1,4 @@
-import brain from "../img/brain.png"
+import brain from "../img/brain.webp"
 
 export default function Intro(prop) {
 
