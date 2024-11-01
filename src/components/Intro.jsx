@@ -32,7 +32,7 @@ export default function Intro(prop) {
 
   return (
     <div className="intro-container">
-        <img src={brain} alt="brain" width="200px" height="156px" className="brain-img"/>
+        <img src={brain} alt="brain" width="200px" height="155px" className="brain-img"/>
         <h1>Trivia Night Training</h1>
         <p>Ready to become the ultimate trivia master?<br />
         Sharpen your skills with this quiz so that you 

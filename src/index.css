@@ -76,7 +76,7 @@ button:hover{
 
 .start-btn{
   border-radius: 15px;
-  background: rgb(109,158,251);
+  background: #5f8ce1;
   width: 120px;
   height: 52px;
   font-family: "Inter", helvetica;
@@ -104,7 +104,7 @@ button{
   padding: 5px 15px;
   margin-bottom: 10px;
   border: 1.5px solid #6D67FF;
-  color: #6D67FF;
+  color: #544fd4;
   background-color: #F5F7FB;
   font-size: .7rem;
 }
