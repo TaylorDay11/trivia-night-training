@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('dir/assets/index.js')) {
+          if (id.includes('dir/assets/index-bl5mcz2k.js')) {
             return false;
           }
         }
