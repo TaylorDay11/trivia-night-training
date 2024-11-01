@@ -67,7 +67,7 @@ button:hover{
 }
 
 .difficulty-btns{
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .category-btns{
@@ -76,13 +76,14 @@ button:hover{
 
 .start-btn{
   border-radius: 15px;
-  background: #5f8ce1;
+  background: #547dcb;
   width: 120px;
   height: 52px;
   font-family: "Inter", helvetica;
-  font-size: 16px;
-  font-weight: 500;
-  color: #F5F7FB;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: .5px;
+  color: #fff;
   border: none;
   margin-top: 20px;
 }
@@ -106,7 +107,7 @@ button{
   border: 1.5px solid #6D67FF;
   color: #544fd4;
   background-color: #F5F7FB;
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 .check-answers-btn{
