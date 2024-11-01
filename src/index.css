@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background: #1C1C1C;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", helvetica;
 }
 
 #root{
@@ -14,18 +14,21 @@ body{
 
 .apiStatus{
   color: #F5F7FB;
-  font-family: "Karla", sans-serif;
+  font-family: "Karla", helvetica;
+  font-weight: 600;
 }
 
 h1{
   margin-top: 10px;
-  font-family: "Karla", sans-serif;
+  font-family: "Karla", helvetica;
+  font-weight: 600;
   color: rgb(17, 17, 17);
   font-size: 2em;
 }
 
 h2{
-  font-family: "Karla", sans-serif;
+  font-family: "Karla", helvetica;
+  font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 16px;
   color: #212121;
@@ -76,7 +79,7 @@ button:hover{
   background: rgb(109,158,251);
   width: 120px;
   height: 52px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", helvetica;
   font-size: 16px;
   font-weight: 500;
   color: #F5F7FB;
